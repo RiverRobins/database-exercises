@@ -1,5 +1,5 @@
 USE codeup_test_db;
-SELECT * FROM albums;
+-- SELECT * FROM albums;
 SELECT * FROM albums WHERE artist = 'Pink Floyd';
 SELECT * FROM albums WHERE release_date = 1967;
 SELECT * FROM albums WHERE genre LIKE 'Grunge'
