@@ -1,4 +1,5 @@
 USE employees;
+
 SELECT * FROM employees WHERE
     (gender = 'M'
     AND (first_name = 'Irena'
